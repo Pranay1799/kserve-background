@@ -24,6 +24,6 @@ while True:
                 keyboard.block_key('windows')
                 os.system("windows.exe")
     except Exception as ep:
-        time.sleep(10)
+        break
 
 
